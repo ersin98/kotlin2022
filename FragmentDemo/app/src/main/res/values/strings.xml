@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Fragment Demo</string>
+    <string name="action_settings"></string>
+    <!-- Birinci   Fragment  -->
+    <string name="first_fragment_label">İlk Fragment</string>
+    <string name="hello_first_fragment">Birinci Sayfaya Hoş Geldin</string>
+
+    <!-- İkinci   Fragment  -->
+    <string name="second_fragment_label">İkinci Fragment</string>
+    <string name="hello_second_fragment">İkinci Sayfaya Hoş Geldin</string>
+
+    <!-- Üçüncü   Fragment  -->
+    <string name="third_fragment_label">Üçüncü Fragment</string>
+    <string name="hello_third_fragment">Üçüncü Sayfaya Hoş Geldin</string>
+
+
+    <!-- Gidilecek sayfa isimleri -->
+    <string name="go_first">Birinci Sayfa</string>
+    <string name="go_second">İkinci Sayfa</string>
+    <string name="go_third">Üçüncü Sayfa</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="arguman_ekle">Arguman ekle</string>
+
+</resources>

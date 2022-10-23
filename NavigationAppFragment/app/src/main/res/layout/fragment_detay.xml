@@ -10,10 +10,11 @@
         android:id="@+id/mail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="47dp"
-        tools:text="birmail@gmial.com"
-        app:layout_constraintStart_toStartOf="@+id/lastName"
-        app:layout_constraintTop_toBottomOf="@+id/lastName"/>
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="273dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gonder"
+        tools:text="birmail@gmial.com" />
     <!-- android:text yerine  tools:text kullanmamızın sebebi bu yazının sadece tasarım sayfasında
     görünüp. Eğer veri alınmadan açılırsa girilen metnin görünememsini sağlamak.
     -->
@@ -21,26 +22,27 @@
         android:id="@+id/lastName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="74dp"
-        tools:text="Yurtseven"
-        app:layout_constraintStart_toStartOf="@+id/name"
-        app:layout_constraintTop_toBottomOf="@+id/name" />
+        android:layout_marginBottom="47dp"
+        app:layout_constraintBottom_toTopOf="@+id/mail"
+        app:layout_constraintStart_toStartOf="@+id/mail"
+        tools:text="Yurtseven" />
 
     <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="152dp"
-        tools:text="Ersin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginBottom="74dp"
+        app:layout_constraintBottom_toTopOf="@+id/lastName"
+        app:layout_constraintStart_toStartOf="@+id/lastName"
+        tools:text="Ersin" />
 
     <Button
         android:id="@+id/gonder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
         android:text="Onay"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="392dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mail" />
 </androidx.constraintlayout.widget.ConstraintLayout>
