@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyRecyclerViewDemo</string>
+    <string name="apply">Apply</string>
+    <string name="header">text</string>
+    <string name="text">title</string>
+    <string name="add_note">Add Note</string>
+</resources>
