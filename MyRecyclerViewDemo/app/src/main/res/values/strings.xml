@@ -3,5 +3,6 @@
     <string name="apply">Apply</string>
     <string name="header">text</string>
     <string name="text">title</string>
+    <string name="empty_error">at least one must be filled</string>
     <string name="add_note">Add Note</string>
 </resources>
